@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "143610552930",
+    "project_id": "ui-design-60c8f",
+    "storage_bucket": "ui-design-60c8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143610552930:android:a3609321ecb6518de5e73b",
+        "android_client_info": {
+          "package_name": "com.example.uidesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143610552930-tdiar2sjl9fb7lf70j9io8mg1mlghq7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnKkUcWUj7vn-R6dld5p1bVbBbn98NShI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143610552930-tdiar2sjl9fb7lf70j9io8mg1mlghq7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

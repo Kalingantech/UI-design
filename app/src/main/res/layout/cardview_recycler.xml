@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#ffffff">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/xml_cardview"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="50dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/xml_profile_pic"
+            android:src="@drawable/ic_launcher_foreground">
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/xml_name"
+    android:layout_marginLeft="25dp"
+    android:textSize="20dp"
+    android:layout_marginTop="25dp"
+    android:text="user name"
+    android:layout_toRightOf="@+id/xml_cardview"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/xml_age"
+        android:layout_marginLeft="25dp"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Age"
+        android:layout_toRightOf="@+id/xml_cardview"
+        android:layout_below="@+id/xml_name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/xml_divider"
+        android:layout_marginLeft="25dp"
+        android:textSize="20dp"
+        android:layout_marginTop="-5dp"
+        android:text="--------------------------------"
+        android:layout_toRightOf="@+id/xml_cardview"
+        android:layout_below="@+id/xml_age"/>
+
+</RelativeLayout>
+</RelativeLayout>
